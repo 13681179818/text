@@ -1,0 +1,4 @@
+/*// 用淘宝布局h5 移动端布局方案时 计算 rem 的值用的函数*/
+@function rem($px){
+	@return $px/75px*1rem;
+}
